@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.welcome {
+  border: 1px black dashed;
+  margin-top: 350px;
+  margin-left: 250px;
+  margin-right: 250px;
+  z-index: -1;
+
+}
+
+.openModal {
+  font-size: 25px;
+  width: 150px;
+  background: none;
+  border: 2px dashed blue;
+  margin: auto;
+  z-index: -1
+}
+
+.theModal {
+
+
+}
+
+.modalBox {
+  margin-top: 2px;
+  border: 2px solid red;
+  position: absolute;
+  background-color: gray;
+  opacity: .75;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+
+}
+.modalContent {
+  border: 2px solid green;
+  background-color: gray;
+  margin: 250px;
+  z-index: -1}
+
+.closeModal {
+  border-radius: 10px;
+}
+
+
+.theModal {
+  display:none;
+}
+
+.showing {
+  display: block;
+  }
