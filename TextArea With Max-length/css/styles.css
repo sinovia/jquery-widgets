@@ -1,3 +1,7 @@
+body {
+  background-color: #693F9B;
+}
+
 textarea {
     display: block;
     margin: 10px;
@@ -12,4 +16,5 @@ textarea {
 h1 {
   font-family: 'Indie Flower', cursive;
   font-size: 75px;
+  color: white;
 }
